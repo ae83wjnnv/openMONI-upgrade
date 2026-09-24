@@ -1,0 +1,20 @@
+{
+"mainClass": "Main",
+"config": "air",
+"compilerOptions": {
+    "source-path": [
+        "src"
+    ],
+    "library-path": [
+      "lib"
+     ]
+    }, 
+    "output": "bin/moni.swf",
+    "target-player": "32.0",
+    "swf-version": 43,
+    "debug": true
+},
+"files": [
+    "Main.as"
+ ]
+}
