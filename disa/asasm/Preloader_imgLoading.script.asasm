@@ -1,0 +1,58 @@
+script
+ sinit
+  refid "Preloader_imgLoading/init"
+  body
+   maxstack 2
+   localcount 1
+   initscopedepth 1
+   maxscopedepth 8
+   code
+    getlocal0
+    pushscope
+
+    findpropstrict      Multiname("Preloader_imgLoading", [PackageNamespace("")])
+    getlex              QName(PackageNamespace(""), "Object")
+    pushscope
+
+    getlex              QName(PackageNamespace("flash.events"), "EventDispatcher")
+    pushscope
+
+    getlex              QName(PackageNamespace("flash.display"), "DisplayObject")
+    pushscope
+
+    getlex              QName(PackageNamespace("flash.display"), "Bitmap")
+    pushscope
+
+    getlex              QName(PackageNamespace("mx.core"), "FlexBitmap")
+    pushscope
+
+    getlex              QName(PackageNamespace("mx.core"), "BitmapAsset")
+    pushscope
+
+    getlex              QName(PackageNamespace("mx.core"), "BitmapAsset")
+    newclass            "Preloader_imgLoading"
+    popscope
+    popscope
+    popscope
+    popscope
+    popscope
+    popscope
+    initproperty        QName(PackageNamespace(""), "Preloader_imgLoading")
+
+    returnvoid
+   end ; code
+  end ; body
+ end ; method
+ trait class QName(PackageNamespace(""), "Preloader_imgLoading") flag METADATA
+  #include "Preloader_imgLoading.class.asasm"
+  metadata "Embed"
+   item "_resolvedSource" "C:/Repository/monica/Game/assets/loading.png"
+   item "_column" "3"
+   item "source" "../assets/loading.png"
+   item "exportSymbol" "Preloader_imgLoading"
+   item "_line" "20"
+   item "_pathsep" "true"
+   item "_file" "C:/Repository/monica/Game/src/Preloader.as"
+  end ; metadata
+ end ; trait
+end ; script

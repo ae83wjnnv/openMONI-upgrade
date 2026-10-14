@@ -1,0 +1,18 @@
+#version 4
+program
+ minorversion 16
+ majorversion 46
+
+ #include "Preloader.script.asasm"
+ #include "mx/core/IFlexAsset.script.asasm"
+ #include "mx/core/FlexBitmap.script.asasm"
+ #include "mx/core/ILayoutDirectionElement.script.asasm"
+ #include "mx/core/IFlexDisplayObject.script.asasm"
+ #include "mx/core/BitmapAsset.script.asasm"
+ #include "Preloader_imgLoading.script.asasm"
+ #include "mx/core/mx_internal.script.asasm"
+ #include "mx/utils/NameUtil.script.asasm"
+ #include "mx/core/IAssetLayoutFeatures.script.asasm"
+ #include "mx/core/IRepeaterClient.script.asasm"
+
+end ; program
