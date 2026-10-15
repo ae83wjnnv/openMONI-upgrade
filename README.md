@@ -1,2 +1,3 @@
 # openMONI-upgrade
-E ai pessoal!  Eu refiz o repo do openMONI corrigindo bugs!
+esse é o openmoni o repo de decomp/disassembly do jogo "Mõnica em: o mundo perdido" lancado em 2016
+(ferramentas/libs que a equipe original usou: compilador: flex sdk 4.6.1, bbliotecas: nape, starling, flashpunk e etc, IDE: desconhecida e target: flash player 11.1)
