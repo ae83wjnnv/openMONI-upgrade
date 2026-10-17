@@ -9,10 +9,10 @@ package com.jpexs.decompiler.flash.debugger
       {
          // method body index: 47 method index: 47
          super();
-         debugAlert("test alert");
-         debugConsole("test console");
-         debugSocket("test proxy");
-         debugTrace("test trace");
+         debugAlert("vixe deu erro!");
+         debugConsole("uuuuu entrou!");
+         debugSocket("È... eu sei o que eu escrevo aqui!");
+         debugTrace("leia isso!");
          var _loc1_:DebugLoader = new DebugLoader();
          var _loc2_:* = debugGetDefinitionByName("flash.display.Loader");
          debugDescribeType(_loc2_);

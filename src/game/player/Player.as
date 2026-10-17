@@ -30,13 +30,13 @@ package game.player
       // method body index: 2571 method index: 2585
       private static const MAX_H_SPEED:Number = // method body index: 2571 method index: 2585
       250;
-      
+      // velocia]dade
       private static const MAX_V_SPEED:Number = // method body index: 2571 method index: 2585
       500;
-      
+      // velocidade mas com V
       private static const ACCELERATION:Number = // method body index: 2571 method index: 2585
       10;
-      
+      // botão de correr eu acho
       private static const JUMP_FORCE:Number = // method body index: 2571 method index: 2585
       415;
       
@@ -51,7 +51,7 @@ package game.player
       
       private static const MAX_AIR:Number = // method body index: 2571 method index: 2585
       10;
-      
+     // é... por que tem um AIR sendo que esse jogo é do flex 4.6.1?
       public var spot:Image;
       
       public var onWater:Water;
@@ -113,7 +113,7 @@ package game.player
       
       private var animationCompleted:Boolean = false;
       
-      public function Player(param1:int, param2:int)
+      public function Player(move:int, animation:int)
       {
          // method body index: 2573 method index: 2587
          super(param1,param2 + 32,20,54,true);

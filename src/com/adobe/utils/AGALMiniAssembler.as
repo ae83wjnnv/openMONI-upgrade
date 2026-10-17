@@ -670,6 +670,7 @@ package com.adobe.utils
                            _loc19_ = true;
                            break;
                         }
+                        // ok isso vai demorar muito!
                         _loc33_ = _loc40_.emitCode;
                         _loc41_ = _loc24_[0].match(/(\.[xyzw]{1,1})/);
                         if(_loc41_.length == 0)

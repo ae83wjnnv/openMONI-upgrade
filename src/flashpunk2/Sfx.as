@@ -6,7 +6,7 @@ package flashpunk2
    import flash.media.SoundTransform;
    import flash.utils.Dictionary;
    import flashpunk2.global.Calc;
-   
+   // isso cuida dos sons
    public class Sfx
    {
       
